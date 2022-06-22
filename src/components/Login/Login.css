@@ -1,0 +1,54 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 11%;
+  width: 40%;
+}
+
+.login-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.registerText {
+  align-self: center;
+}
+
+.forgot-pw-text {
+  margin-top: 15px;
+  align-self: center;
+}
+
+.registerRoute {
+  text-decoration: none;
+  color: #ff69b4;
+  transition: 0.1s ease-out;
+}
+
+.registerRoute:hover {
+  color: #0096FF;
+  transition: 0.2s ease-in;
+}
+
+@media (max-width: 650px) {
+  .login-container {
+    margin-top: 20%;
+    width: 90%;
+  }
+
+  .login-title {
+    text-align: left;
+    padding: 10px 0px 0px 6px;
+  }
+
+  .forgot-pw-text {
+    align-self: flex-start;
+  }
+
+  .registerText {
+    align-self: flex-start;
+  }
+}
