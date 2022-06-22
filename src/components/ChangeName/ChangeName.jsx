@@ -21,7 +21,6 @@ const ChangeName = () => {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
-          'Access-Control-Allow-Origin': '*',
           'x-auth-token': localStorage.getItem('auth-token')
         },
         body: JSON.stringify({

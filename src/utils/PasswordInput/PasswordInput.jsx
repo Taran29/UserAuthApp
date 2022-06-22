@@ -37,7 +37,6 @@ const PasswordInput = (props) => {
         value={confirmPassword || ''}
         setValue={confirmPassword => setConfirmPassword(confirmPassword)}
         onFocusOut={onFocusOutPassword}
-        onEnter={onEnter}
       />
 
       {!passwordMatch ?
