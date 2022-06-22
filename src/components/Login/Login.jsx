@@ -59,7 +59,6 @@ const Login = ({ setExistingUser }) => {
     let response = await result.json()
 
     if (result.status === 200) {
-      console.log(result.headers.get('x-auth-token'))
       localStorage.setItem('auth-token', result.headers.get('x-auth-token'))
       localStorage.setItem('user', JSON.stringify({
         id: response.result._id,
